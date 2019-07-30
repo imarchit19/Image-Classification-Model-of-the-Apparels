@@ -8,7 +8,7 @@
 
 **Labels**
 
-0: 'T - shirt / top' 
+0: 'T - shirt / top'
 
 1: 'Trouser'
 
@@ -38,6 +38,5 @@
 Based on all models’ performance, the convolutional network gives best performance on test set, and it doesn’t tend to overfit dataset by using dropout regularization method. It is surprising that the linear classifiers have high accuracies in test set. It may be because we have reshaped all the input images to the same shape and all the images are clean and well organized.
 Although CNN outperforms linear classifier in our dataset, it takes much longer time to train the model. When we get a large dataset, it will take a lot of time to train a good CNN model.
 
-#### Higher accuracy was found in Method 1 (Ver 2.3) ranging from 89 to 93 depending on the Batch size or epoch we set.
-#### While Logistic Regression Model (Ver 3.2) ranged from 80 to 84, thus it had a lower accuracy with the given dataset. 
-
+* Higher accuracy was found in Method 1 (Ver 2.3) ranging from 89 to 93 depending on the Batch size or epoch we set.
+* While Logistic Regression Model (Ver 3.2) ranged from 80 to 84, thus it had a lower accuracy with the given dataset.
